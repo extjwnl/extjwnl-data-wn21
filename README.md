@@ -10,17 +10,17 @@ use of WordNet-like semantic resources in your project.
 In the pom.xml:
 
 ```xml
-        <dependency>
-            <groupId>net.sf.extjwnl</groupId>
-            <artifactId>extjwnl</artifactId>
-            <version>1.7</version>
-        </dependency>
-        <dependency>
-            <scope>test</scope>
-            <groupId>net.sf.extjwnl</groupId>
-            <artifactId>extjwnl-data-wn21</artifactId>
-            <version>1.0</version>
-        </dependency>
+<dependency>
+    <groupId>net.sf.extjwnl</groupId>
+    <artifactId>extjwnl</artifactId>
+    <version>1.7</version>
+</dependency>
+<dependency>
+    <scope>test</scope>
+    <groupId>net.sf.extjwnl</groupId>
+    <artifactId>extjwnl-data-wn21</artifactId>
+    <version>1.0</version>
+</dependency>
 ```
 
 In the code:
