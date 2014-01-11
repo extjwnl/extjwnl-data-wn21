@@ -16,7 +16,6 @@ In the pom.xml:
     <version>1.7</version>
 </dependency>
 <dependency>
-    <scope>test</scope>
     <groupId>net.sf.extjwnl</groupId>
     <artifactId>extjwnl-data-wn21</artifactId>
     <version>1.0</version>
