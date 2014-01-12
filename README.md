@@ -13,7 +13,7 @@ In the pom.xml:
 <dependency>
     <groupId>net.sf.extjwnl</groupId>
     <artifactId>extjwnl</artifactId>
-    <version>1.7</version>
+    <version>1.7.0</version>
 </dependency>
 <dependency>
     <groupId>net.sf.extjwnl</groupId>
