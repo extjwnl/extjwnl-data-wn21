@@ -10,14 +10,14 @@
     <groupId>net.sf.extjwnl</groupId>
     <artifactId>extjwnl-data-wn21</artifactId>
     <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <name>extJWNL WordNet 2.1 Data</name>
     <description>Dictionary data from WordNet 2.1 Unix version</description>
     <scm>
         <connection>scm:git:https://github.com/extjwnl/extjwnl-data-wn21.git</connection>
         <developerConnection>scm:git:git@github.com:extjwnl/extjwnl-data-wn21.git</developerConnection>
         <url>https://github.com/extjwnl/extjwnl-data-wn21</url>
-      <tag>HEAD</tag>
+      <tag>extjwnl-data-wn21-1.0</tag>
     </scm>
 
     <build>
