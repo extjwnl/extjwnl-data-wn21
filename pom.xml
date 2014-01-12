@@ -4,7 +4,7 @@
     <parent>
         <groupId>net.sf.extjwnl</groupId>
         <artifactId>extjwnl-parent</artifactId>
-        <version>1.6.11-SNAPSHOT</version>
+        <version>1.7.0</version>
     </parent>
 
     <groupId>net.sf.extjwnl</groupId>
@@ -27,5 +27,16 @@
                 <filtering>false</filtering>
             </resource>
         </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <version>1.3.1</version>
+            </plugin>
+        </plugins>
     </build>
 </project>
