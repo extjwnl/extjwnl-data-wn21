@@ -27,3 +27,9 @@ In the code:
 ```java
 Dictionary d = Dictionary.getDefaultResourceInstance();
 ```
+
+# Notes
+On checkout pay attention to your core.autocrlf git setting. The data files have unix line endings and they should remain so. The recommended way is to set core.autocrlf to false:
+```cmd
+git config core.autocrlf false
+```
